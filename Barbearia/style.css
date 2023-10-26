@@ -1,0 +1,297 @@
+header {
+  background: #BBBBBB;
+  padding: 20px 0;
+}
+
+body p{
+  font-size: 18px;
+}
+
+.caixacabecalho{
+  position: relative;
+  width: 1400px;
+  margin: 0 auto;
+}
+
+nav {
+  position: absolute; 
+  top: 110px; 
+  right: 0px;
+}
+
+nav li {
+  display: inline;
+  margin-left: 15px;
+}
+
+nav a {
+  text-transform: uppercase;
+  color:black;
+  font-weight: bold;
+  font-size: 22px;
+  text-decoration: none;
+}
+
+nav a:hover{
+  color: yellow;
+  text-decoration: underline;
+}
+
+.produtos {
+  width: 1200px;
+  margin: 0 auto;
+  padding: 50px 0;
+}
+
+.produtos li {
+  display: inline-block;
+  text-align: center;
+  width: 30%;
+  vertical-align: top;
+  margin: 0 1.5%;
+  padding: 30px 20px;
+  box-sizing: border-box;
+  border: 2px solid black;
+  border-radius: 10px
+}
+
+.produtos li:hover{
+  border-color: yellow;
+}
+
+.produtos li:active{
+  border-color: aqua;
+}
+
+.produtos li:hover h2{
+  font-size: 40px;
+}
+
+.produtos h2 {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.descriçao-produto{
+font-size: 18px;
+
+}
+
+.preço-produto {
+  font-size: 22px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+footer{
+  text-align: center;
+  background: url(bg.jpg) ;
+  padding: 40px 0;
+}
+
+.Copyright{
+  color: white;
+  font-size: 10px;
+  margin-top: 30px;
+}
+
+form {
+  margin: 40px 0 40px;
+  margin-left: 180px;
+
+}
+
+form label, form legend {
+  display: block;
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+
+.input-padrao {
+  display: block;
+  margin-bottom: 20px;
+  padding: 10px;
+  width: 600px;
+}
+
+select{
+  padding: 8px 15px;
+  font-size: 15px;
+}
+
+.checkbox{
+  margin: 20px 0;
+}
+
+.enviar{
+  width: 36%;
+  padding: 15px 0;
+  background-color: orange;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  transition: 1s all;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.enviar:hover{
+  background-color: darkorange;
+  transform: scale(1.2);
+}
+
+table{
+  margin: 20px 0 40px;
+  margin-left: 180px;
+}
+
+thead{
+  background-color: gray;
+  font-weight: bold;
+  color: white;
+}
+
+th, td {
+border: 1px solid black;
+padding: 8px 15px ;
+}
+
+/* css da pagina inicial */
+
+.banner {
+  width: 100%;
+}
+
+.titulo-principal {
+  text-align: center;
+  font-size: 2em;
+  margin-bottom: 1em;
+  clear: left;
+  opacity: 85%;
+}
+
+.principal {
+  padding: 3em 0;
+  background-color: #FEFEFE;
+  width: 1400px;
+  margin: 0 auto;
+}
+
+.principal p {
+  margin-bottom: 1em;
+}
+
+.principal strong {
+  font-weight: bold;
+}
+
+.principal em {
+  font-style: italic;
+}
+/* deg(angulação, radius,% de onde starta */
+.mapa{
+  padding: 3em 0;
+  background:linear-gradient(#FEFEFE,gray);
+}
+
+.mapa-conteudo {
+  width: 1400px;
+  margin: 0 auto;
+}
+
+.mapa p {
+  margin-bottom: 2em;
+  text-align: center;
+}
+
+.beneficios {
+  padding: 3em 0;
+  background: gray;
+}
+
+.conteudo-beneficios{
+  width: 640px;
+  margin: 0 auto;
+}
+
+.lista-beneficios {
+  width: 40%;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.itens{
+line-height: 1.5em;
+font-size: 18px
+}
+
+.itens:before {
+  content: "\2605";
+}
+.itens:first-child{
+  font-weight: bold;
+}
+
+.imagembeneficios {
+  width: 60%;
+  opacity: 100%;
+  transition: 400ms;
+  box-shadow: 10px 10px 5px black;
+}
+
+.imagembeneficios:hover {
+opacity: 30%;
+}
+
+.utensilios {
+  width: 120px;
+  float: left;
+  margin: 0 20px 20px 0;
+}
+
+.video {
+  width: 560px;
+  margin: 2em auto;
+}
+
+@media screen and (max-width: 1000px) {
+.caixacabecalho, .principal, .conteudo-beneficios, .video, .mapa-conteudo, .produtos{
+  width: 100%;
+}
+h1 {
+  text-align: center;
+}
+nav {
+  position: static;
+  text-align: center;
+}
+.lista-beneficios, .imagembeneficios {
+  width: 100% ;
+}
+
+.produtos li {
+  display: list-item;
+  width: 100%;
+  margin: auto;
+}
+form {
+  margin: 40px 5%;
+  text-align: center;
+}
+.input-padrao{
+  margin: 1em auto;
+  width: 70%;
+}
+form label, form legend {
+  text-align: center;
+}
+.enviar{
+  width: 70%;
+  padding: 15px 10px;
+}
+table{
+  margin: auto;
+  margin-bottom: 2em;
+}
+}
