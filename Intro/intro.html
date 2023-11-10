@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Introdução</title>
+</head>
+<body>
+    <p id="paragrafo">Olá mundo</p>
+    <script>
+        function trocar () {
+            var x = document.getElementById("paragrafo");
+            if(x.innerHTML.match("Olá mundo")){
+                x.innerHTML = "Hello world"
+            } else {
+                x.innerHTML = "Olá mundo"
+            }
+           
+        }
+    </script>
+    <button id="button" onclick="trocar()" >Clique aqui</button>
+</body>
+</html>
