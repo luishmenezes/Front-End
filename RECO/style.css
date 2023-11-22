@@ -1,0 +1,38 @@
+.cabecalho{
+  margin: 0;
+  background-color:  #FAFAFA;
+  
+}
+
+.cabecalho img{
+  width: 80px;
+}
+
+.cabecalho a{
+  text-decoration: none;
+  padding: 20px;
+  color: black;
+ }
+
+.cabecalho a:hover{
+  transform: 2.0;
+  background-color: #2457C5;
+  border-radius: 10px;
+}
+
+.paginas{
+  float: right;
+  margin-top: 25px;
+}
+
+main img{
+  
+  width: 200px;
+}
+
+footer{
+  margin: 0;
+  background-color: #2457C5;
+  text-align: center;
+  padding: 20px;
+}
