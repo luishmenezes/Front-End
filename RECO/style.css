@@ -31,10 +31,13 @@ main img{
 }
 
 footer{
-  margin: 0;
+  bottom: 0;
+  left: 0;
+  position: fixed;
+  width: 100%;
   background-color: #2457C5;
   text-align: center;
-  padding: 20px;
+  padding: 15px;
 }
 
 .conteudo-central{
@@ -56,5 +59,46 @@ aside li{
 }
 
 .aluno{
-  padding: 15px;
+  padding: 30px;
+}
+
+form {
+  margin: 40px 0 40px;
+  margin-left: 180px;
+
+}
+
+form label, form legend {
+  display: block;
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+
+.input-padrao {
+  display: block;
+  margin-bottom: 20px;
+  padding: 10px;
+  width: 600px;
+}
+
+.enviar{
+  width: 30%;
+  padding: 15px 0;
+  background-color: orange;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  transition: 1s all;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.downloads{
+  text-align: center;
+  margin-top: 200px;
+}
+
+.downloads img{
+  padding: 50px;
 }
