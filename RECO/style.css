@@ -1,6 +1,7 @@
 .cabecalho{
   margin: 0;
-  background-color:  #FAFAFA;
+  background-color:  #DFDFDF;
+  border-radius: 10px;
   
 }
 
@@ -20,6 +21,10 @@
   border-radius: 10px;
 }
 
+Body{
+  background-color: rgb(243, 250, 250);
+}
+
 .paginas{
   float: right;
   margin-top: 25px;
@@ -35,7 +40,7 @@ footer{
   left: 0;
   position: fixed;
   width: 100%;
-  background-color: #2457C5;
+  background-color: #4996CA;
   text-align: center;
   padding: 15px;
 }
@@ -101,4 +106,13 @@ form label, form legend {
 
 .downloads img{
   padding: 50px;
+}
+
+.fotos-integrantes img{
+  width: 200px;
+  height: 300px;
+}
+
+.fotos-integrantes h2{
+  text-align: center;
 }
