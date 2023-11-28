@@ -5,6 +5,12 @@
   
 }
 
+h1,h2,p,a,li{
+  font-family: 'Crimson Text', serif;
+  font-family: 'Inter', sans-serif;
+  font-family: 'Open Sans', sans-serif;
+}
+
 .cabecalho img{
   width: 80px;
 }
@@ -35,11 +41,21 @@ main img{
   width: 200px;
 }
 
-footer{
+.footer-downloads{
   bottom: 0;
   left: 0;
   position: fixed;
-  width: 100%;
+  width: 98.5%;
+  background-color: #4996CA;
+  text-align: center;
+  padding: 15px;
+}
+
+
+footer{
+  bottom: 0;
+  left: 0;
+  width: 98.5%;
   background-color: #4996CA;
   text-align: center;
   padding: 15px;
