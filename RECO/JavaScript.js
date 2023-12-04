@@ -52,12 +52,55 @@ function walbert(){
 
 function BaixarAndroid(){
   
-    
-  alert("Seu download vai começar em breve ...")
+      
+  var conteudoTexto = "Parabéns, você baixou o aplicativo Reco para android";
+  var blob = new Blob([conteudoTexto], { type: "text/plain" });
+  var link = document.createElement('a');
+  var url = window.URL.createObjectURL(blob);
+
+  
+  link.href = url;
+
+  
+  link.download = 'aplicativoRECOAndroid.txt';
+
+  
+  document.body.appendChild(link);
+
+  
+  link.click();
+
+  
+  document.body.removeChild(link);
+
+  L
+  window.URL.revokeObjectURL(url);
+  
 }
 
 function BaixarApple(){
   
     
-  alert("Seu download vai começar em breve ...")
+  var conteudoTexto = "Parabéns, você baixou o aplicativo Reco para IOS";
+  var blob = new Blob([conteudoTexto], { type: "text/plain" });
+  var link = document.createElement('a');
+  var url = window.URL.createObjectURL(blob);
+
+  
+  link.href = url;
+
+  
+  link.download = 'aplicativoRECOIos.txt';
+
+  
+  document.body.appendChild(link);
+
+  
+  link.click();
+
+  
+  document.body.removeChild(link);
+
+  L
+  window.URL.revokeObjectURL(url);
 }
